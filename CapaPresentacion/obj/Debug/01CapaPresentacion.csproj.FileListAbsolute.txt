@@ -1,0 +1,13 @@
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\Debug\CapaNegocios.dll
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\01CapaPresentacion.csproj.AssemblyReference.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\01CapaPresentacion.csproj.GenerateResource.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\01CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\01CapaPresentacion.csproj.CopyComplete
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

@@ -1,0 +1,6 @@
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaDatos\bin\Debug\03CapaDatos.dll
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaDatos\bin\Debug\03CapaDatos.pdb
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaDatos\obj\Debug\03CapaDatos.csproj.AssemblyReference.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaDatos\obj\Debug\03CapaDatos.csproj.CoreCompileInputs.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaDatos\obj\Debug\03CapaDatos.dll
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaDatos\obj\Debug\03CapaDatos.pdb

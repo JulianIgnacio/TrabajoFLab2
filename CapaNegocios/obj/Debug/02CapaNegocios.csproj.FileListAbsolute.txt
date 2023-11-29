@@ -1,0 +1,9 @@
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\bin\Debug\CapaNegocios.dll
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\bin\Debug\CapaNegocios.pdb
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\bin\Debug\03CapaDatos.dll
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\bin\Debug\03CapaDatos.pdb
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\obj\Debug\02CapaNegocios.csproj.AssemblyReference.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\obj\Debug\02CapaNegocios.csproj.CoreCompileInputs.cache
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\obj\Debug\02CapaNegocios.csproj.CopyComplete
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\obj\Debug\CapaNegocios.dll
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaNegocios\obj\Debug\CapaNegocios.pdb
