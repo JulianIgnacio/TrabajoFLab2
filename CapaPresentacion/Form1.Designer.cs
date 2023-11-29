@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnTestConexion = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnTestConexion
+            // 
+            this.btnTestConexion.Location = new System.Drawing.Point(610, 23);
+            this.btnTestConexion.Name = "btnTestConexion";
+            this.btnTestConexion.Size = new System.Drawing.Size(99, 59);
+            this.btnTestConexion.TabIndex = 0;
+            this.btnTestConexion.Text = "Test de Conexion";
+            this.btnTestConexion.UseVisualStyleBackColor = true;
+            this.btnTestConexion.Click += new System.EventHandler(this.btnTestConexion_Click);
             // 
             // Form1
             // 
@@ -36,6 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTestConexion);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnTestConexion;
     }
 }
 
