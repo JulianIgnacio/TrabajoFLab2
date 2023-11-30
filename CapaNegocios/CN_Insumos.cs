@@ -13,5 +13,11 @@ namespace CapaNegocios
             dtInsumos = cdinsumos.ObtenerInsumos();
             return dtInsumos;
         }
+
+        public void InsertarDatos(string Nombre, float Precio, int Cantidad)
+        {
+            cdinsumos.Insertar(Nombre, Precio, Cantidad);
+        }
+
     }
 }

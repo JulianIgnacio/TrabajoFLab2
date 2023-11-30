@@ -13,5 +13,10 @@ namespace CapaNegocios
             dtProductos = cdproductos.ObtenerProductos();
             return dtProductos;
         }
+
+        public void InsertarDatos(string Nombre, float Precio, int Cantidad)
+        {
+            cdproductos.Insertar(Nombre,Precio,Cantidad);
+        }
     }
 }

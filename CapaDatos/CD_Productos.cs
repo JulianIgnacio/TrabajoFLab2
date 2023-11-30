@@ -22,5 +22,17 @@ namespace CapaDatos
 
             return tabla;
         }
+
+        public void Insertar(string Nombre,float Precio,int Cantidad)
+        {
+            comandoSql.Connection = conexionDB.AbrirConexion();
+            comandoSql.CommandText = "INSERT INTO Producto VALUES (@nombre,@precio,@cantidad)";
+            comandoSql.Parameters.AddWithValue("@nombre", Nombre);
+            comandoSql.Parameters.AddWithValue("@precio",Precio);
+            comandoSql.Parameters.AddWithValue("@cantidad",Cantidad);
+            comandoSql.ExecuteNonQuery();
+            conexionDB.CerrarConexion();
+        }
+
     }
 }
