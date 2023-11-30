@@ -15,3 +15,4 @@ D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\D
 D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\bin\Debug\03CapaDatos.pdb
 D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Productos.resources
 D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Insumos.resources
+D:\Documentos\Tecnicatura\Laboratorio 2\ProyectoFinalLab2\CapaPresentacion\obj\Debug\CapaPresentacion.frm_ModificarProducto.resources

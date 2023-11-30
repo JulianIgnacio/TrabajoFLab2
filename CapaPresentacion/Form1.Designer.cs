@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTestConexion = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.DgvPan = new System.Windows.Forms.DataGridView();
-            this.btnMostrar = new System.Windows.Forms.Button();
-            this.btnLimpiarDgv = new System.Windows.Forms.Button();
-            this.btnProductos = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.insumosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostrarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.insertarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostrarDatosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.insertarDatosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarDatosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarDatosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvPan)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnTestConexion
-            // 
-            this.btnTestConexion.Location = new System.Drawing.Point(610, 23);
-            this.btnTestConexion.Name = "btnTestConexion";
-            this.btnTestConexion.Size = new System.Drawing.Size(99, 59);
-            this.btnTestConexion.TabIndex = 0;
-            this.btnTestConexion.Text = "Test de Conexion";
-            this.btnTestConexion.UseVisualStyleBackColor = true;
-            this.btnTestConexion.Click += new System.EventHandler(this.btnTestConexion_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -54,7 +55,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.75154F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.24846F));
             this.tableLayoutPanel1.Controls.Add(this.DgvPan, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(80, 35);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(151, 60);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.305475F));
@@ -65,40 +66,118 @@
             // DgvPan
             // 
             this.DgvPan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvPan.Location = new System.Drawing.Point(3, 11);
+            this.DgvPan.Location = new System.Drawing.Point(3, 10);
             this.DgvPan.Name = "DgvPan";
             this.DgvPan.Size = new System.Drawing.Size(397, 333);
             this.DgvPan.TabIndex = 0;
             // 
-            // btnMostrar
+            // menuStrip1
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(608, 117);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(101, 51);
-            this.btnMostrar.TabIndex = 2;
-            this.btnMostrar.Text = "MostrarDatos";
-            this.btnMostrar.UseVisualStyleBackColor = true;
-            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.insumosToolStripMenuItem,
+            this.productosToolStripMenuItem,
+            this.testToolStripMenuItem,
+            this.salirToolStripMenuItem,
+            this.salirToolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 5;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // btnLimpiarDgv
+            // insumosToolStripMenuItem
             // 
-            this.btnLimpiarDgv.Location = new System.Drawing.Point(610, 204);
-            this.btnLimpiarDgv.Name = "btnLimpiarDgv";
-            this.btnLimpiarDgv.Size = new System.Drawing.Size(99, 55);
-            this.btnLimpiarDgv.TabIndex = 3;
-            this.btnLimpiarDgv.Text = "Limpiar Data Grid View";
-            this.btnLimpiarDgv.UseVisualStyleBackColor = true;
-            this.btnLimpiarDgv.Click += new System.EventHandler(this.btnLimpiarDgv_Click);
+            this.insumosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarDatosToolStripMenuItem,
+            this.insertarDatosToolStripMenuItem,
+            this.editarDatosToolStripMenuItem,
+            this.eliminarDatosToolStripMenuItem});
+            this.insumosToolStripMenuItem.Name = "insumosToolStripMenuItem";
+            this.insumosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.insumosToolStripMenuItem.Text = "Insumos";
             // 
-            // btnProductos
+            // mostrarDatosToolStripMenuItem
             // 
-            this.btnProductos.Location = new System.Drawing.Point(610, 289);
-            this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(99, 37);
-            this.btnProductos.TabIndex = 4;
-            this.btnProductos.Text = "MostrarProductos";
-            this.btnProductos.UseVisualStyleBackColor = true;
-            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
+            this.mostrarDatosToolStripMenuItem.Name = "mostrarDatosToolStripMenuItem";
+            this.mostrarDatosToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.mostrarDatosToolStripMenuItem.Text = "Mostrar Datos";
+            this.mostrarDatosToolStripMenuItem.Click += new System.EventHandler(this.mostrarDatosToolStripMenuItem_Click);
+            // 
+            // insertarDatosToolStripMenuItem
+            // 
+            this.insertarDatosToolStripMenuItem.Name = "insertarDatosToolStripMenuItem";
+            this.insertarDatosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.insertarDatosToolStripMenuItem.Text = "Insertar Datos";
+            this.insertarDatosToolStripMenuItem.Click += new System.EventHandler(this.insertarDatosToolStripMenuItem_Click);
+            // 
+            // editarDatosToolStripMenuItem
+            // 
+            this.editarDatosToolStripMenuItem.Name = "editarDatosToolStripMenuItem";
+            this.editarDatosToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.editarDatosToolStripMenuItem.Text = "Editar Datos";
+            // 
+            // eliminarDatosToolStripMenuItem
+            // 
+            this.eliminarDatosToolStripMenuItem.Name = "eliminarDatosToolStripMenuItem";
+            this.eliminarDatosToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.eliminarDatosToolStripMenuItem.Text = "Eliminar Datos";
+            // 
+            // productosToolStripMenuItem
+            // 
+            this.productosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarDatosToolStripMenuItem1,
+            this.insertarDatosToolStripMenuItem1,
+            this.editarDatosToolStripMenuItem1,
+            this.eliminarDatosToolStripMenuItem1});
+            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.productosToolStripMenuItem.Text = "Productos";
+            // 
+            // mostrarDatosToolStripMenuItem1
+            // 
+            this.mostrarDatosToolStripMenuItem1.Name = "mostrarDatosToolStripMenuItem1";
+            this.mostrarDatosToolStripMenuItem1.Size = new System.Drawing.Size(150, 22);
+            this.mostrarDatosToolStripMenuItem1.Text = "Mostrar Datos";
+            this.mostrarDatosToolStripMenuItem1.Click += new System.EventHandler(this.mostrarDatosToolStripMenuItem1_Click);
+            // 
+            // insertarDatosToolStripMenuItem1
+            // 
+            this.insertarDatosToolStripMenuItem1.Name = "insertarDatosToolStripMenuItem1";
+            this.insertarDatosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.insertarDatosToolStripMenuItem1.Text = "Insertar Datos";
+            this.insertarDatosToolStripMenuItem1.Click += new System.EventHandler(this.insertarDatosToolStripMenuItem1_Click);
+            // 
+            // editarDatosToolStripMenuItem1
+            // 
+            this.editarDatosToolStripMenuItem1.Name = "editarDatosToolStripMenuItem1";
+            this.editarDatosToolStripMenuItem1.Size = new System.Drawing.Size(150, 22);
+            this.editarDatosToolStripMenuItem1.Text = "Editar Datos";
+            // 
+            // eliminarDatosToolStripMenuItem1
+            // 
+            this.eliminarDatosToolStripMenuItem1.Name = "eliminarDatosToolStripMenuItem1";
+            this.eliminarDatosToolStripMenuItem1.Size = new System.Drawing.Size(150, 22);
+            this.eliminarDatosToolStripMenuItem1.Text = "Eliminar Datos";
+            // 
+            // testToolStripMenuItem
+            // 
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.testToolStripMenuItem.Text = "Test";
+            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.salirToolStripMenuItem.Text = "Limpiar";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem1
+            // 
+            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem1.Text = "Salir";
             // 
             // Form1
             // 
@@ -106,27 +185,37 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnProductos);
-            this.Controls.Add(this.btnLimpiarDgv);
-            this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.btnTestConexion);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvPan)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnTestConexion;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.DataGridView DgvPan;
-        private System.Windows.Forms.Button btnMostrar;
-        private System.Windows.Forms.Button btnLimpiarDgv;
-        private System.Windows.Forms.Button btnProductos;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem insumosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem productosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mostrarDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem insertarDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editarDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eliminarDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mostrarDatosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem insertarDatosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem editarDatosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem eliminarDatosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
     }
 }
 

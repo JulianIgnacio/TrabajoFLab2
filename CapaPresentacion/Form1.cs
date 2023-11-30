@@ -14,20 +14,24 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-        private void btnTestConexion_Click(object sender, EventArgs e)
-        {
-            cnTest.TestDB();
-        }
 
-        private void btnMostrar_Click(object sender, EventArgs e)
+        private void mostrarDatosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TraerDgvInsumos();
         }
-        private void btnLimpiarDgv_Click(object sender, EventArgs e)
+        private void limpiarDataGridViewToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LimpiarDgv();
         }
-        private void btnProductos_Click(object sender, EventArgs e)
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cnTest.TestDB();
+        }
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LimpiarDgv();
+        }
+        private void mostrarDatosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             TraerDgvProductos();
         }
@@ -46,5 +50,18 @@ namespace CapaPresentacion
             DgvPan.Columns.Clear();
         }
 
+        private void insertarDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Insumos frmInsertar = new Frm_Insumos();
+            AddOwnedForm(frmInsertar);
+            frmInsertar.ShowDialog();
+        }
+
+        private void insertarDatosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Frm_Productos frmInsertar = new Frm_Productos();
+            AddOwnedForm(frmInsertar);
+            frmInsertar.ShowDialog();
+        }
     }
 }
