@@ -33,6 +33,7 @@
             this.DgvPan = new System.Windows.Forms.DataGridView();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnLimpiarDgv = new System.Windows.Forms.Button();
+            this.btnProductos = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvPan)).BeginInit();
             this.SuspendLayout();
@@ -89,12 +90,23 @@
             this.btnLimpiarDgv.UseVisualStyleBackColor = true;
             this.btnLimpiarDgv.Click += new System.EventHandler(this.btnLimpiarDgv_Click);
             // 
+            // btnProductos
+            // 
+            this.btnProductos.Location = new System.Drawing.Point(610, 289);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Size = new System.Drawing.Size(99, 37);
+            this.btnProductos.TabIndex = 4;
+            this.btnProductos.Text = "MostrarProductos";
+            this.btnProductos.UseVisualStyleBackColor = true;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnProductos);
             this.Controls.Add(this.btnLimpiarDgv);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -114,6 +126,7 @@
         private System.Windows.Forms.DataGridView DgvPan;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnLimpiarDgv;
+        private System.Windows.Forms.Button btnProductos;
     }
 }
 

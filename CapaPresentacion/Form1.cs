@@ -8,6 +8,7 @@ namespace CapaPresentacion
     {
         CN_Test cnTest = new CN_Test();
         CN_Insumos cnInsumos = new CN_Insumos();
+        CN_Productos cnProductos = new CN_Productos();
         public Form1()
         {
             InitializeComponent();
@@ -26,6 +27,15 @@ namespace CapaPresentacion
         {
             LimpiarDgv();
         }
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            TraerDgvProductos();
+        }
+
+        private void TraerDgvProductos()
+        {
+            DgvPan.DataSource = cnProductos.MostrarProductos();
+        }
         private void TraerDgvInsumos()
         {
             DgvPan.DataSource = cnInsumos.MostrarInsumos();
@@ -35,7 +45,6 @@ namespace CapaPresentacion
             DgvPan.DataSource = null;
             DgvPan.Columns.Clear();
         }
-
 
     }
 }

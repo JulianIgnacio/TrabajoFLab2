@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CN_Productos.cs" />
     <Compile Include="CN_Test.cs" />
     <Compile Include="CN_Insumos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
